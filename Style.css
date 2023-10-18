@@ -35,21 +35,21 @@ body {
 }
 
 .btn-play {
-  margin-left: auto;
+  margin-top: 300px;
   width: 100px;
   height: 50px;
   border: 2px solid #00ff00;
   color: white;
   font-family: monospace;
   font-size: x-large;
-  display: flex;
+  display: inline-grid;
   align-items: center;
   justify-content: center;
-  position: fixed;
   border-radius: 10%;
   background: #000000a9;
   text-decoration: none;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-content: center;
 }
 
 .btn1 {
