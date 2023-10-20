@@ -8,6 +8,68 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
+@media (min-width: 240px) {
+  .img-entre {
+    min-width: 90%;
+  }
+}
+
+@media (min-width: 490px) {
+  .img-entre {
+    min-width: 90%;
+  }
+}
+
+@media (min-width: 600px) {
+  .img-entre {
+    min-width: 90%;
+  }
+}
+
+@media (min-width: 800px) {
+  .img-entre {
+    min-width: 90%;
+
+  }
+}
+
+@media (min-width: 900px) {
+  .img-entre {
+    min-width: 90%;
+
+  }
+}
+
+@media (min-width: 1000px) {
+  .img-entre {
+    min-width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-entre {
+    min-width: 70%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .img-entre {
+    min-width: 60%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .img-entre {
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 1930px) {
+  .img-entre {
+    max-width: 50%;
+  }
+}
+
 .img-fond {
   height: 100%;
   width: 100%;
@@ -16,11 +78,13 @@ body {
   background-position: center;
 }
 
-.img-entre {
+.img-portail {
   width: 55%;
-  border: 2px solid #00ff00;
+  border: 2px solid #006e00;
   border-radius: 2%;
 }
+
+.img-class {}
 
 .conteneur {
   justify-content: center;
@@ -41,12 +105,12 @@ body {
 
 .btn-play {
   margin-top: 300px;
-  width: 100px;
-  height: 50px;
-  border: 2px solid #00ff00;
+  width: 150px;
+  height: 100px;
+  border: 2px solid #006e00;
   color: white;
   font-family: monospace;
-  font-size: x-large;
+  font-size: xxx-large;
   display: inline-grid;
   align-items: center;
   justify-content: center;
@@ -58,13 +122,14 @@ body {
 }
 
 .btn1 {
-  width: 80px;
-  height: 50px;
+  width: 120px;
+  height: 60px;
   right: 55%;
   bottom: 15%;
-  border: 2px solid #00ff00;
+  border: 2px solid #006e00;
   color: white;
   display: flex;
+  font-size: x-large;
   font-family: monospace;
   justify-content: center;
   align-items: center;
@@ -75,13 +140,14 @@ body {
 }
 
 .btn2 {
-  width: 80px;
-  height: 50px;
+  width: 120px;
+  height: 60px;
   left: 55%;
   bottom: 15%;
-  border: 2px solid #00ff00;
+  border: 2px solid #006e00;
   color: white;
   display: flex;
+  font-size: x-large;
   font-family: monospace;
   justify-content: center;
   align-items: center;
