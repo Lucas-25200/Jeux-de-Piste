@@ -69,6 +69,12 @@ body {
     max-width: 50%;
   }
 }
+.img-cpe{
+  margin-top: 70px;
+  width: 30%;
+  border: 2px solid #694d00;
+  border-radius: 20PX;
+}
 
 .img-fond {
   height: 100%;
@@ -78,13 +84,19 @@ body {
   background-position: center;
 }
 
-.img-portail {
-  width: 55%;
-  border: 2px solid #006e00;
-  border-radius: 2%;
+.img-class{
+  margin-top: 70px;
+  width: 30%;
+  border: 2px solid #694d00;
+  border-radius: 20PX;
 }
 
-.img-class {}
+.img-portail {
+  margin-top: 70px;
+  width: 35%;
+  border: 2px solid #694d00;
+  border-radius: 20PX;
+}
 
 .conteneur {
   justify-content: center;
@@ -104,13 +116,13 @@ body {
 }
 
 .btn-play {
-  margin-top: 300px;
-  width: 150px;
-  height: 100px;
-  border: 2px solid #006e00;
+  margin-top: 250px;
+  padding: 30px;
+  border: 2px solid #694d00;
   color: white;
   font-family: monospace;
-  font-size: xxx-large;
+  font-size: xx-large;
+  font-weight: bold;
   display: inline-grid;
   align-items: center;
   justify-content: center;
@@ -122,11 +134,10 @@ body {
 }
 
 .btn1 {
-  width: 120px;
-  height: 60px;
+  padding: 20px;
   right: 55%;
   bottom: 15%;
-  border: 2px solid #006e00;
+  border: 2px solid #694d00;
   color: white;
   display: flex;
   font-size: x-large;
@@ -134,17 +145,16 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  border-radius: 10%;
+  border-radius: 12px;
   background: #000000a9;
   text-decoration: none;
 }
 
 .btn2 {
-  width: 120px;
-  height: 60px;
+  padding: 20px;
   left: 55%;
   bottom: 15%;
-  border: 2px solid #006e00;
+  border: 2px solid #694d00;
   color: white;
   display: flex;
   font-size: x-large;
@@ -152,25 +162,25 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  border-radius: 10%;
+  border-radius: 12px;
   background: #000000a9;
   text-decoration: none;
 }
 
 .boite {
-  border: 1px solid #000000;
-  height: 99vh;
+  border: 1px solid #694d00;
+  height: 1061px;
 }
 
 #objet00 {
   margin: auto;
-  background-image: url(Image/104318-foret-ecosysteme-lepinette_sapin_de_la_foret-la_reserve_naturelle_de-attraction_touristique-7680x4320.jpg);
+  background-image: url(Image/170189-unis-la_vallee_de_la_mort-macaron-nature-art-7680x4320.jpg);
   background-size: cover;
   background-position: center;
 }
 
 h1 {
-  margin-top: 50px;
+  margin-top: 40px;
   color: rgb(0, 0, 0);
   font-size: xxx-large;
   font-family: monospace;
@@ -178,6 +188,7 @@ h1 {
 }
 
 h2 {
+  margin-top: 80px;
   color: rgb(0, 0, 0);
   font-size: xx-large;
   font-family: monospace;
